@@ -79,6 +79,22 @@ body.dark{
     font-size: .8rem;
 }
 
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 30px;
+}
+
+.flags__img{
+    cursor: pointer;
+    display: block;
+}
+
 .colors{
     display: flex;
     justify-content: space-between;
@@ -294,8 +310,6 @@ body.dark{
 
 @media screen and (min-width: 760px){
     .card--project{
-        display: grid;
-        grid-template-columns: min-content 1fr;
         grid-column: 1 / -1;
     }
 
